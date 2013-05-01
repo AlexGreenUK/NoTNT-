@@ -26,7 +26,6 @@ public final class NoTNT extends JavaPlugin implements Listener {
     	getLogger().info("Plugin Has Stopped!");
     }
     
-
     @EventHandler(priority = EventPriority.HIGH)
     public void TNTPlace(BlockPlaceEvent event) {
     	if(event.getBlock().getType() == Material.TNT) {
