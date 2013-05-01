@@ -1,0 +1,7 @@
+name: NoTNT
+main: com.xelatyper.NoTNT.NoTNT
+version: 0.1
+permissions:
+    notnt.place:
+        description: Allows you to place TNT
+        default: op
